@@ -1,0 +1,14 @@
+Накатывание изменений с апстрима на мой форк на Github
+
+https://github.com/akimdi/kali-linux-wallpapers
+
+git clone --verbose git@github.com:akimdi/kali-linux-wallpapers.git
+git status
+git remote -v
+git remote add upstream git@github.com:dorianpro/kali-linux-wallpapers.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+git status
+git push origin master
+git status
